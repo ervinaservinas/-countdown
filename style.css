@@ -1,0 +1,44 @@
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    margin: 0;
+}
+
+.clock-container {
+    text-align: center;
+}
+
+.clock-title {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.clock {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.timer-container {
+    margin-top: 20px;
+}
+
+#timer-input {
+    padding: 10px;
+    font-size: 1em;
+    margin-right: 10px;
+}
+
+#start-timer {
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.timer {
+    font-size: 2em;
+    margin-top: 20px;
+}

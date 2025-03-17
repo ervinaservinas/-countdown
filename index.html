@@ -1,20 +1,21 @@
 <!DOCTYPE html>
-
-<html>
+<html lang="en">
     <head>
         <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>CountDown Timer</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <!-- <link rel="stylesheet" href="style.css"> -->
-        <script src="script.js" defer src="script.js"></script
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Nordic Clock App</title>
+        <link rel="stylesheet" href="style.css">
+        <script src="script.js" defer></script>
     </head>
     <body>
-       
-        test
-        test
-        <div id="countdown"></div>
+        <div class="clock-container">
+            <h1 class="clock-title">Nordic Clock</h1>
+            <div id="clock" class="clock"></div>
+            <div class="timer-container">
+                <input type="number" id="timer-input" placeholder="Enter minutes" min="1">
+                <button id="start-timer">Start Focus Timer</button>
+                <div id="timer" class="timer"></div>
+            </div>
+        </div>
     </body>
-    
 </html>
