@@ -1,5 +1,3 @@
-// This file contains the JavaScript code for the clock functionality. It initializes the clock, updates the time every second, and handles any user interactions.
-
 const updateClock = () => {
     const now = new Date();
     const options = { hour: '2-digit', minute: '2-digit', second: '2-digit', hour12: false };
